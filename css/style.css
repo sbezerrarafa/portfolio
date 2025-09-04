@@ -158,10 +158,14 @@
     /* Responsive */
     @media (min-width: 720px) {
       .span-6 { grid-column: span 6; }
+    
     }
     @media (max-width: 900px) {
       .hero-grid { grid-template-columns: 1fr; }
       .contact { grid-template-columns: 1fr; }
+      .menu{
+        display:none;
+      }
     }
 
     /* Simple reveal on scroll */
